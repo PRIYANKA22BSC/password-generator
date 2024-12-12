@@ -11,7 +11,7 @@ let[char,setChar] = useState(false)
   return(
     <>
     <h1 className='text-center text-4xl text-cyan-700'>Password generator</h1>
-    <div className=' flex-col  flex items-center justify-center w-screen'>
+    <div className='  bg-slate-600 flex-col  flex items-center justify-center w-screen'>
       <div className=' mt-8 p-4 w-1/2 border-2 border-cyan-400  rounded-md  flex-col flex items-center justify-center  readonly '>
       <div className='w-auto '><input type="text"placeholder="Type Here" className='p-2 border-2 border-cyan-400 rounded-md mr-1 w-96'/>
       <button className='p-2 border-2 border-solid text-white bg-slate-950 px-7 rounded-md  cursor-pointer  border-cyan-600 hover:bg-slate-50  hover:text-cyan-600' >Copy</button></div>
