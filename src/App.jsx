@@ -4,9 +4,9 @@ import viteLogo from '/vite.svg'
 /*import'./App.css'*/
 
 function App() {
-const[length,setlength] = useState(8)
-const[num,setNum] = useState(false)
-const[char,setChar] = useState(false)
+let[length,setlength] = useState(8)
+let[num,setNum] = useState(false)
+let[char,setChar] = useState(false)
 
   return(
     <>
